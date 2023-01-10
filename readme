@@ -1,0 +1,33 @@
+Action Potential Generation Simulation using the Hodgkin-Huxley Model
+##############################################################################################################################################
+
+This file includes a GUI in "GUI.m" and a function HH(amp,dur,stinum,delay) that GUI uses in "HH.m".
+
+To run the simulation basicly just open GUI.m with MATLAB and run it. 
+When the GUI appears, tune with the inputs as you want, however you should be careful about it, inputs given out of range result in an empty plot. TUNE IT CAREFULLY.
+
+To understand the function better, look at below and see the description of the function. OR better just look at the code in "HH.m".
+##############################################################################################################################################
+
+function HH(amp,dur,stinum,delay)
+% Author: (Guray Ozgur)(2167054)(Middle East Technical University)
+%
+% Description: 
+% 	     (Action Potential Generation)
+%            A model of the excitable membrane of an axon using the Hudgkin-Huxley (H&H) network model
+%            based on the rate constants for ionic channel conductivities determined by H&H
+%
+% Input:
+%      	amp : amplitude of the stimulus current applied to the axon in uA/cm^2
+%       dur : duration of the stimulus current applied to the axon in miliseconds
+%    stinum : number of consecutive stimuli to be applied (one or two)
+%     delay : the time delay between the successive stimuli if more than one stimulus is applied in miliseconds
+%
+% Output:
+%            	     I : applied input current
+%                  I_m : total membrane current 
+%  I_Na, I_K, I_L, I_C : sodium, potassium, leakage channel and capacitive currents
+%       G_Na, G_K, G_L : sodium, potassium, and leakage channel conductances
+%                  V_m : transmembrane voltage
+% Usage:
+%       HH(amp,dur,stinum,delay)  
