@@ -2,7 +2,7 @@
 
 This repository is a project, for which an action potential is simulated by using the Hodgkin-Huxley Model in MATLAB. This model is based on the rate constants for ionic channel conductivities determined by Hodgkin and Huxley. In this simulation, for the ordinary differential equations describing the phenomenon, Forward Euler Method is used. User specifies the number of stimulations and delay between them. Moreover, for applied input current, its amplitude and duration are chosen by the user. All the outputs are taken out in a graphical form for a smooth visualization of the data in a certain time interval to observe the effect of the stimulations.
 
-
+```Matlab
 Action Potential Generation Simulation using the Hodgkin-Huxley Model
 ##############################################################################################################################################
 
@@ -36,3 +36,4 @@ function HH(amp,dur,stinum,delay)
 %                  V_m : transmembrane voltage
 % Usage:
 %       HH(amp,dur,stinum,delay)  
+```
