@@ -40,5 +40,5 @@ function HH(amp,dur,stinum,delay)
 ```
 # Example Results
 
-![Image](./images/1- Membrane Action Potential Using the Hodgkin-Huxley Equations.jpg)
-![Image](./images/2- Sodium, Potassium, and Leakage Conductances, and Corresponding Currents.jpg)
+![Membrane Action Potential Using the Hodgkin-Huxley Equations](https://github.com/gurayozgur/HodgkinHuxleyModel/blob/main/images/1-%20Membrane%20Action%20Potential%20Using%20the%20Hodgkin-Huxley%20Equations.jpg?raw=true)
+![Sodium, Potassium, and Leakage Conductances, and Corresponding Currents](https://github.com/gurayozgur/HodgkinHuxleyModel/blob/main/images/2-%20Sodium,%20Potassium,%20and%20Leakage%20Conductances,%20and%20Corresponding%20Currents.jpg?raw=true)
